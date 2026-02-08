@@ -1,0 +1,5 @@
+frase = input("me fale uma frase qualquer ")
+palavra_a = frase.count("a")
+local1 = frase.find("a")
+local2 = frase.rfind("a")
+print("a letra a aprece {} vezes e a primeira vez que ela aparece e em {} e a ultima vez que aparece é em {}".format(palavra_a, local1, local2))

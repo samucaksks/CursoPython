@@ -1,0 +1,8 @@
+algo = input("digite algo ")
+print("é um numero ou uma letra/palavra? {}".format(algo.isalnum()))
+print("é uma letra/palavra? {}".format(algo.isalpha()))
+print("só tem espaço? {}".format(algo.isspace()))
+print('está em caps lock? {}'.format(algo.isupper()))
+print("está em letra minuscula? {}".format(algo.islower()))
+print("ela é um title? {}".format(algo.istitle()))
+print("é um número? {}".format(algo.isnumeric()))
