@@ -1,6 +1,6 @@
 from datetime import date
 data_de_hoje = date.today().year
-nascimento = int(input("Qual é o ano do seu nascimento? "))
+nascimento = int(input("Qual é o seu ano de nascimento? "))
 idade = data_de_hoje - nascimento
 militar = input("Você ja serviu ao exercito? RESPONDA COM SIM OU NÃO ").upper()
 if idade < 18:
