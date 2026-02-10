@@ -7,4 +7,4 @@ for letra in range(len(junto)-1, -1, -1):
 if inv == junto:
     print('{} é um palíndromo'.format(fras.lower()))
 else:
-    print('{} não é um palíndromo'.format(fras.lower()))
+    print('"{}" não é um palíndromo'.format(fras.lower()))
