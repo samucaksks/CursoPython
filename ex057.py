@@ -3,6 +3,7 @@ maior = 0
 menor = 0
 mujeres = 0
 nome_maior = ''
+nome_maior2 = ''
 for i in range(1, 6):
     nome = input('qual seu nome')
     idade = int(input('qual sua idade'))
@@ -20,8 +21,13 @@ for i in range(1, 6):
             if idade > maior:
                 maior = idade
                 nome_maior = nome
+            if idade == maior:
+                nome_maior2 = nome
 
 media = soma_idade / 5
-print('A média das idades é {:.2f}'.format(media))
-print('o homem com maior idade é {}'.format(nome_maior))
+print('A média das idades é {:.1f}'.format(media))
+if nome_maior2 != '':
+    print('os homens com maior idade são {} e {}'.format(nome_maior, nome_maior2))
+else:
+    print('o homem com maior idade é {}'.format(nome_maior))
 print('a quantidade de mulheres com menos de 20 anos é: {}'.format(mujeres))
