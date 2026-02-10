@@ -5,6 +5,6 @@ inv = ''
 for letra in range(len(junto)-1, -1, -1):
     inv += junto[letra]
 if inv == junto:
-    print('{} é um palíndromo'.format(fras))
+    print('{} é um palíndromo'.format(fras.lower()))
 else:
-    print('{} não é um palíndromo'.format(fras))
+    print('{} não é um palíndromo'.format(fras.lower()))
