@@ -13,4 +13,4 @@ elif idade >= 18 and militar in ("SIM" or "S"):
     print("\033[0;33mParabens")
 elif idade > 18 and militar in ("NÃO" or "NAO" or "N"):
     falta = idade - 18
-    print("Você ainda \033[0;31mNÃO\033[m seriu o exercito com essa idade, caramba, enfim você passou do prazo por \033[0;31m{}\033[m ANOS".format(falta))
+    print("Você ainda \033[0;31mNÃO\033[m serviu o exercito com essa idade, caramba, enfim você passou do prazo por \033[0;31m{}\033[m ANOS".format(falta))
