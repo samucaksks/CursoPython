@@ -5,9 +5,10 @@ mujeres = 0
 nome_maior = ''
 nome_maior2 = ''
 for i in range(1, 6):
-    nome = input('qual seu nome')
-    idade = int(input('qual sua idade'))
+    nome = input('qual seu nome ')
+    idade = int(input('qual sua idade '))
     sexo = input('qual seu sexo [M/F]: ').upper()
+    print('=-'*20)
 
     soma_idade += idade
     if sexo == 'F' and idade < 20:
