@@ -1,7 +1,6 @@
 soma_idade = 0
 maior = 0
-menor = 0
-mujeres = 0
+garotas = 0
 nome_maior = ''
 nome_maior2 = ''
 for i in range(1, 6):
@@ -12,7 +11,7 @@ for i in range(1, 6):
 
     soma_idade += idade
     if sexo == 'F' and idade < 20:
-        mujeres += 1
+        garotas += 1
 
     if sexo == 'M':
         if nome_maior == '':
@@ -28,7 +27,7 @@ for i in range(1, 6):
 media = soma_idade / 5
 print('A média das idades é {:.1f}'.format(media))
 if nome_maior2 != '':
-    print('os homens com maior idade são {} e {}'.format(nome_maior, nome_maior2))
+    print(f'os homens com maior idade são {nome_maior} e {nome_maior2}')
 else:
-    print('o homem com maior idade é {}'.format(nome_maior))
-print('a quantidade de mulheres com menos de 20 anos é: {}'.format(mujeres))
+    print(f'o homem com maior idade é {nome_maior}')
+print(f'a quantidade de mulheres com menos de 20 anos é: {garotas}')
